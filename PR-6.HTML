@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\pr.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <img src="img/logo.png" alt="" class="logo">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                    <a href="#" class="nav-btn">Get started</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+
+    <main>
+        <div class="banner">
+            <h1><span>FREE</span><br><span>LANCER</span></h1>
+            <div class="BTN">
+                <button class="btn-1">Request call back 📞</button>
+                <button class="btn-2">Know more ↗</button>
+            </div>
+            <p>Passionate UI/UX designers 10+ years of experience. </p>
+            <img src="img/user.png" alt="" class="user-img">
+        </div>
+    </main>
+
+<script>
+let navbar = document.querySelector('nav')
+    window.onscroll = function(){
+        if (window.scrollY > 0){
+            navbar.style.background = '#eefff9';
+        }else{
+            navbar.style.background = 'transparent';
+        }
+    }
+</script>
+</body>
+</html>

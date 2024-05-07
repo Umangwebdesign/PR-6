@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    z-index: 10;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav .logo {
+    width: 240px;
+    height: 90px;
+    cursor: pointer;
+}
+
+nav .nav-btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#eefff9 0%, #eeffccc1 49%, #dcdbff 100%);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner h1 {
+    margin-top: 100px;
+    font-size: 13vw;
+    line-height: 11vw;
+}
+
+.BTN {
+    margin: 20px 0;
+}
+
+.banner button {
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-1{
+    background: #000;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 40px;
+}
+.btn-2{
+    background: transparent;
+    text-decoration: underline;
+}
+
+.banner p{
+    max-width: 360px;
+    font-weight: 500;
+}
+.user-img{
+width: 100%;
+max-width: 650px;
+position: absolute;
+right: 0%;
+bottom: 0;
+}
+
+.banner h1 span{
+    background: linear-gradient(#000,#000);
+    background-repeat: no-repeat;
+    -webkit-text-fil-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 50%;
+}
